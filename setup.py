@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='DashGourd-Web-Api',
     version='0.1.1',
-    url='https://github.com/richard-to/dashgourd',
+    url='https://github.com/richard-to/dashgourd-web-api',
     author='Richard To',
     description='Example web api for DashGourd using Flask Blueprint',
     platforms='any',
