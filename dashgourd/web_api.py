@@ -31,6 +31,7 @@ def init_web_api(actions_api, auth=None):
         if(json is not None  and 'data' in json):
             actions_api.create_user(json['data'])
         return ''
+    
     @web_api.route('/users/<int:user_id>/actions', methods=['POST'])
     @auth.requires_auth
     def api_create_users_actions(user_id):
